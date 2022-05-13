@@ -1,0 +1,24 @@
+body {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+header {
+    padding: 10px 0;
+}
+header button {
+    margin: 0 4px;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+header button.active {
+    background-color: #ffffdd;
+}
+
+.tableContainer header {
+    display: flex;
+}
+
+.tableContainer.loading {
+    opacity: 0.4;
+}
